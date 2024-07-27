@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity Tables</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        button {
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Progress up to: 27-4-2024</h2>
+<h2>Subcontractor :عبدالرحمن سعد الربياوى للصيانة</h2>
+<h2>Items Marked as "OK"</h2>
+<table id="okTable">
+    <thead>
+        <tr>
+            <th>Serial</th>
+            <th>Activity</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td>1</td><td>KP 1+239 VENT SHAFT No 1</td><td>OK</td></tr>
+        <tr><td>2</td><td>KP 1+800 WASH OUT SHAFT No 1</td><td>OK</td></tr>
+        <tr><td>3</td><td>KP 1+922 DRAIN SHAFT No 1</td><td>OK</td></tr>
+        <tr><td>4</td><td>KP 4+383 VENT SHAFT No 2</td><td>OK</td></tr>
+        <tr><td>5</td><td>VENT STATION-3 (8+185.47kp)</td><td>OK</td></tr>
+        <tr><td>6</td><td>DRAIN STATION-2 (8+438.34kp)</td><td>OK</td></tr>
+        <tr><td>7</td><td>VENT STATION-4 (8+610.02kp)</td><td>OK</td></tr>
+        <tr><td>8</td><td>VENT STATION-5 (8+803.39kp)</td><td>OK</td></tr>
+        <tr><td>9</td><td>M-VENT STATION-2 (8+872.71kp)</td><td>OK</td></tr>
+        <tr><td>10</td><td>M-VENT STATION-2 (9+639.86kp)</td><td>OK</td></tr>
+        <tr><td>11</td><td>DRAIN STATION-3 (9+703.88kp)</td><td>OK</td></tr>
+        <tr><td>12</td><td>VENT STATION-3 (9+913.49kp)</td><td>OK</td></tr>
+        <tr><td>13</td><td>M-VENT STATION-4 (10+038.17kp)</td><td>OK</td></tr>
+        <tr><td>14</td><td>VENT STATION-5 (10+259.26kp)</td><td>OK</td></tr>
+        <tr><td>15</td><td>DRAIN STATION-5 (10+461.55kp)</td><td>OK</td></tr>
+        <tr><td>16</td><td>M-VENT STATION-5 (12+118.81kp)</td><td>OK</td></tr>
+        <tr><td>17</td><td>DRAIN STATION-6 (12+245.5kp)</td><td>OK</td></tr>
+        <tr><td>18</td><td>M-VENT STATION-6 (13+206.54kp)</td><td>OK</td></tr>
+        <tr><td>19</td><td>M-VENT STATION-6 (13+527.06kp)</td><td>OK</td></tr>
+        <tr><td>20</td><td>M-VENT STATION-7 (14+572.05kp)</td><td>OK</td></tr>
+        <tr><td>21</td><td>DRAIN STATION-7 (14+669.36kp)</td><td>OK</td></tr>
+        <tr><td>22</td><td>M-VENT STATION-8 (16+618.96kp)</td><td>OK</td></tr>
+        <tr><td>23</td><td>M-VENT STATION-7 (17+484.68kp)</td><td>OK</td></tr>
+        <tr><td>24</td><td>VENT STATION-9 (17+712.57kp)</td><td>OK</td></tr>
+        <tr><td>25</td><td>WASHOUT DRAIN STATION-2 (18+616.77kp)</td><td>OK</td></tr>
+        <tr><td>26</td><td>DRAIN STATION-8 (24+929.81kp)</td><td>OK</td></tr>
+        <tr><td>27</td><td>VENT STATION-8 (26+985.58kp)</td><td>OK</td></tr>
+        <tr><td>28</td><td>VENT STATION-9 (30+887.61kp)</td><td>OK</td></tr>
+        <tr><td>29</td><td>VENT STATION-10 (32+874.01kp)</td><td>OK</td></tr>
+        <tr><td>30</td><td>VENT STATION-11 (33+593.24kp)</td><td>OK</td></tr>
+        <tr><td>31</td><td>VENT STATION-11 (33+616.99kp)</td><td>OK</td></tr>
+        <tr><td>32</td><td>VENT STATION-12 (34+109.78kp)</td><td>OK</td></tr>
+        <tr><td>33</td><td>M-VENT STATION-10 (37+715.12kp)</td><td>OK</td></tr>
+        <tr><td>34</td><td>DRAIN STATION-11 (38+811.21kp)</td><td>OK</td></tr>
+        <tr><td>35</td><td>DRAIN STATION-13 (40+514.14kp)</td><td>OK</td></tr>
+        <tr><td>36</td><td>WASHOUT DRAIN STATION-3 (41+033.42kp)</td><td>OK</td></tr>
+        <tr><td>37</td><td>VENT STATION-14 (41+229.44kp)</td><td>OK</td></tr>
+        <tr><td>38</td><td>VENT STATION-15 (43+930.18kp)</td><td>OK</td></tr>
+        <tr><td>39</td><td>DRAIN STATION-12 (43+946.72kp)</td><td>OK</td></tr>
+        <tr><td>40</td><td>KP 49+771 DRAIN SHAFT No 17</td><td>OK</td></tr>
+        <tr><td>41</td><td>KP 50+543 VENT SHAFT No 31</td><td>OK</td></tr>
+        <tr><td>42</td><td>KP 51+043 VENT SHAFT No 32</td><td>OK</td></tr>
+        <tr><td>43</td><td>KP 51+548 VENT SHAFT No 33</td><td>OK</td></tr>
+        <tr><td>44</td><td>KP 52+657 DRAIN SHAFT No 19</td><td>OK</td></tr>
+        <tr><td>45</td><td>KP 53+437 VENT SHAFT No 34</td><td>OK</td></tr>
+        <tr><td>46</td><td>KP 53+905 DRAIN SHAFT No 20</td><td>OK</td></tr>
+        <tr><td>47</td><td>KP 54+366 VENT SHAFT No 35</td><td>OK</td></tr>
+        <tr><td>48</td><td>KP 55+067 DRAIN SHAFT No 21</td><td>OK</td></tr>
+    </tbody>
+</table>
+
+
+<h2>Items Not Marked as "OK"</h2>
+<table id="notOkTable">
+    <thead>
+        <tr>
+            <th>Serial</th>
+            <th>Activity</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td>1</td><td>KP 43+980 VENT SHAFT No 25</td></tr>
+        <tr><td>2</td><td>KP 44+000 DRAIN SHAFT No 12</td></tr>
+        <tr><td>3</td><td>KP 44+935 VENT SHAFT No 26</td></tr>
+        <tr><td>4</td><td>KP 45+022 DRAIN SHAFT No 13</td></tr>
+        <tr><td>5</td><td>KP 46+467 VENT SHAFT No 27</td></tr>
+        <tr><td>6</td><td>KP 46+579 DRAIN SHAFT No 14</td></tr>
+        <tr><td>7</td><td>KP 48+303 VENT SHAFT No 28</td></tr>
+        <tr><td>8</td><td>KP 48+373 DRAIN SHAFT No 15</td></tr>
+        <tr><td>9</td><td>KP 48+775 VENT SHAFT No 29</td></tr>
+        <tr><td>10</td><td>KP 48+939 DRAIN SHAFT No 16</td></tr>
+        <tr><td>11</td><td>KP 49+636 VENT SHAFT No 30</td></tr>
+        <tr><td>12</td><td>KP 55+667 DRAIN SHAFT No 21</td></tr>
+        <tr><td>13</td><td>KP 56+911 VENT SHAFT No 37</td></tr>
+        <tr><td>14</td><td>KP 57+006 DRAIN SHAFT No 22</td></tr>
+        <tr><td>15</td><td>KP 57+177 VENT SHAFT No 38</td></tr>
+        <tr><td>16</td><td>KP 57+309 DRAIN SHAFT No 23</td></tr>
+        <tr><td>17</td><td>KP 57+521 VENT SHAFT No 39</td></tr>
+        <tr><td>18</td><td>KP 57+761 DRAIN SHAFT No 24</td></tr>
+        <tr><td>19</td><td>KP 57+935 VENT SHAFT No 40</td></tr>
+        <tr><td>20</td><td>KP 58+377 DRAIN SHAFT No 25</td></tr>
+        <tr><td>21</td><td>KP 58+720 VENT SHAFT No 41</td></tr>
+        <tr><td>22</td><td>KP 58+959 DRAIN SHAFT No 26</td></tr>
+        <tr><td>23</td><td>KP 59+415 VENT SHAFT No 43</td></tr>
+        <tr><td>24</td><td>KP 60+211 VENT SHAFT No 27</td></tr>
+        <tr><td>25</td><td>KP 60+505 DRAIN SHAFT No 44</td></tr>
+        <tr><td>26</td><td>KP 60+762 VENT SHAFT No 28</td></tr>
+        <tr><td>27</td><td>KP 60+979 DRAIN SHAFT No 45</td></tr>
+        <tr><td>28</td><td>KP 62+029 VENT SHAFT No 29</td></tr>
+        <tr><td>29</td><td>KP 62+168 DRAIN SHAFT No 46</td></tr>
+        <tr><td>30</td><td>KP 62+277 VENT SHAFT No 30</td></tr>
+    </tbody>
+</table>
+
+<button onclick="copyTableContent('okTable')">Copy OK Table</button>
+<button onclick="copyTableContent('notOkTable')">Copy Not OK Table</button>
+<button onclick="window.print()">Print Tables</button>
+
+<script>
+    function copyTableContent(tableId) {
+        let table = document.getElementById(tableId);
+        let range = document.createRange();
+        range.selectNode(table);
+        window.getSelection().removeAllRanges(); 
+        window.getSelection().addRange(range); 
+        document.execCommand("copy");
+        window.getSelection().removeAllRanges();
+        alert("Table content copied to clipboard!");
+    }
+</script>
+
+</body>
+</html>
